@@ -57,7 +57,7 @@ BOT_TOKEN: str = os.environ["BOT_TOKEN"]
 DATABASE_URL: str = os.environ["DATABASE_URL"]
 CRYPTO_BOT_TOKEN: str = os.environ["CRYPTO_BOT_TOKEN"]
 ADMIN_ID: int = int(os.getenv("ADMIN_ID", "7973988177"))
-ADMIN_USERNAME: str = os.getenv("ADMIN_USERNAME", "").lstrip("@")
+ADMIN_USERNAME: str = os.getenv("ADMIN_USERNAME", "SpeedBuildingSupport").lstrip("@")
 RUB_PER_USDT: Decimal = Decimal(os.getenv("RUB_PER_USDT", "90"))
 PER_PAGE: int = int(os.getenv("PER_PAGE", "8"))
 
